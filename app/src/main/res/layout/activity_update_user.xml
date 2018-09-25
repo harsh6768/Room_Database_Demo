@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateUserActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:text="Update User"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/update_userId"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="152dp"
+            android:ems="10"
+            android:hint="@string/user_id"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/update_user_nameId"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="226dp"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/update_user_emailId"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="223dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/update_btnId"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="112dp"
+            android:text="Update User"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

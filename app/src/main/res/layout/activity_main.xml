@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FF50DEAE">
+
+
+    <RelativeLayout
+        android:id="@+id/main_homeFragmentId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/add_userBtnId"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:text="@string/add_user"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/display_BtnId"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="168dp"
+            android:text="See Users"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/delete_userBtnId"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Delete User" />
+
+        <Button
+            android:id="@+id/update_userBtnId"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="163dp"
+            android:text="Update User" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
